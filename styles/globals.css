@@ -1,0 +1,27 @@
+/* 
+light text #f7ebde
+slightly darker text #a69cac
+primary #cc5803
+light bg #474973
+background #161B33
+dark bg #0D0C1D
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #161b33;
+  color: #f7ebde;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

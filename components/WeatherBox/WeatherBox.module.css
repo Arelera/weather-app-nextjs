@@ -1,0 +1,57 @@
+.box {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem 0.5rem;
+  background: #161b33;
+}
+
+.location {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.country {
+  color: #cc5803;
+}
+
+.temp,
+.weather,
+.humidity,
+.wind {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  display: flex;
+}
+
+.temp {
+  width: 80px;
+  margin-right: 1rem;
+}
+
+.cBtn,
+.fBtn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  background: #fbf5ef;
+  outline: none;
+}
+.cBtn {
+  border-radius: 5px 0 0 5px;
+}
+.fBtn {
+  border-radius: 0 5px 5px 0;
+}
+.active {
+  background: #474973;
+  color: #fbf5ef;
+}
+
+.error {
+  font-size: 2rem;
+  text-align: center;
+  color: #cc5803;
+}

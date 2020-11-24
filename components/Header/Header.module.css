@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.navbar {
+  padding: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  margin: auto;
+  font-weight: 600;
+  text-shadow: 0px 2px 5px #0d0c1d;
+  letter-spacing: 1rem;
+  transition: 0.2s all ease;
+}
+
+.logo:hover {
+  letter-spacing: 0.25rem;
+  text-shadow: 50px 2px 5px #0d0c1d;
+}

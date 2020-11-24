@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.fof,
+.msg {
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.fof {
+  padding: 0.5rem 1rem 0.5rem 0;
+  margin-right: 1rem;
+  color: #cc5803;
+  border-right: 1px solid #cc5803;
+}
+
+.msg {
+  font-weight: 400;
+}
+@media screen and (max-width: 425px) {
+  .container {
+    margin-top: 160px;
+  }
+  .fof {
+    margin: 0;
+    font-size: 3rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #cc5803;
+  }
+  .msg {
+    display: block;
+  }
+}

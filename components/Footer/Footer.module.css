@@ -1,0 +1,18 @@
+.footer {
+  font-size: 1.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  background: #161b33;
+}
+
+.link {
+  color: #cc5803;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
