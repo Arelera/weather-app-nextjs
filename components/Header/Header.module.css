@@ -21,3 +21,12 @@
   letter-spacing: 0.25rem;
   text-shadow: 50px 2px 5px #0d0c1d;
 }
+
+@media screen and (max-width: 425px) {
+  .header {
+    height: 60px;
+  }
+  .navbar {
+    padding: 1rem;
+  }
+}

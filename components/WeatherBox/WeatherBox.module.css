@@ -17,7 +17,7 @@
 .weather,
 .humidity,
 .wind {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 8vw, 2rem);
   margin-bottom: 0.5rem;
 }
 

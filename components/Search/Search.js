@@ -8,7 +8,10 @@ export default function Search({ setIsLoading }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    Router.push({ pathname: `/weather`, query: { location } });
+    Router.push({
+      pathname: `/weather`,
+      query: { location: location.trim().replace(/ +/, '+') },
+    });
   };
 
   return (

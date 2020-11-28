@@ -1,28 +1,28 @@
 .welcome {
   max-width: 650px;
   height: 300px;
-  margin: 3rem auto 1rem auto;
+  margin: 3rem auto 1rem;
 }
 
 .title {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: clamp(2.5rem, 10vw, 4rem);
 }
 .subtitle {
   font-weight: 500;
-  font-size: 3rem;
+  font-size: clamp(2rem, 8vw, 3rem);
   color: #d9c8ba;
 }
 
 @media screen and (max-width: 768px) {
   .welcome {
     max-width: 550px;
-    margin: 3rem 0.5rem;
+    margin: 3rem auto;
   }
-  .title {
-    font-size: 3rem;
-  }
-  .subtitle {
-    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 425px) {
+  .welcome {
+    margin: 1rem 0.5rem;
   }
 }
